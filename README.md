@@ -33,9 +33,9 @@ source("project_51.R")
 
 ## **Results Summary**
 
-✔ Increased education: The reform led to a significant rise in schooling years, particularly for students from lower-income backgrounds.
-✔ Higher earnings: The additional education translated into increased wages, especially for those with less-educated parents.
-✔ Gender & Socioeconomic Effects: Differences were observed in how the reform impacted males vs. females and students from different family backgrounds.
+✔ Increased education: The reform led to a significant rise in schooling years, particularly for students from lower-income backgrounds.<br>
+✔ Higher earnings: The additional education translated into increased wages, especially for those with less-educated parents. <br>
+✔ Gender & Socioeconomic Effects: Differences were observed in how the reform impacted males vs. females and students from different family backgrounds.<br>
 
 ## **Authors**
 
