@@ -19,18 +19,18 @@ This project investigates the impact of Sweden’s **1940s educational reform** 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-### **2️⃣ Install required R packages**
-install.packages(c("tidyverse", "lmtest", "stargazer", "plm", "sandwich", "car", "lfe", "knitr"))
-### **3️⃣ Run the analysis script**
-source("project_51.R")
 
+2️⃣ Install required R packages
+install.packages(c("tidyverse", "lmtest", "stargazer", "plm", "sandwich", "car", "lfe", "knitr"))
+3️⃣ Run the analysis script
+source("project_51.R")
 Results Summary
 
 ✔ Increased education: The reform led to a significant rise in schooling years, particularly for students from lower-income backgrounds.
 ✔ Higher earnings: The additional education translated into increased wages, especially for those with less-educated parents.
 ✔ Gender & Socioeconomic Effects: Differences were observed in how the reform impacted males vs. females and students from different family backgrounds.
 
-##Authors
+Authors
 
-👤 **Yuval Bakirov**
-👤 **Eitan Bakirov**
+👤 Yuval Bakirov
+👤 Eitan Bakirov
