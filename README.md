@@ -1,10 +1,36 @@
-# Final Project:
-<b>Econometrics is a quantitative measurement theory that uses statistical tools to examine relationships between economic variables, examine trends and provide economic forecasts.</b>
+# **Sweden Education Reform - Econometric Analysis**
 
-## About:
-This project analyzes the impact of Sweden’s 1940s educational reform on individuals' earnings and education levels using econometric techniques. By leveraging a difference-in-differences approach with cohort-based variation, the study estimates causal effects on schooling years and labor market outcomes. The analysis is based on Meghir & Palme (2005) and includes regression modeling, hypothesis testing, and policy implications.
+## **Overview**  
+This project investigates the impact of Sweden’s **1940s educational reform** on schooling and labor market outcomes using econometric techniques. A **difference-in-differences (DiD) approach** is applied to assess how the reform influenced years of education and earnings, following the framework of Meghir & Palme (2005).  
 
-We learned basic knowledge regarding modern econometric tools that are used to test economic theories and models.<br>
-We relied on databases in order to examine economic theories from a variety of fields in the economy, such as labor economics, corporate governance, education economics and other topics in macro and micro economics.<br>
-We discussed (1) <b>basic concepts in statistics<b>, (2) <b>regression of a single variable<b>, (3) <b>hypothesis testing<b>, <b>confidence intervals<b> and <b>prediction in models of a single explanatory variable<b>, (4) <b>multiple regression<b>, (5) <b>hypothesis tests and prediction in multiple regression variables<b>, (6)<b> specification problems<b>, (7) <b>covariates and interactions<b>, (8) <b>linear probability model<b>, (9)<b> panel data<b>, <b>the difference-in-differences model and models with fixed effects <b>(10) <b>heteroscedasticity <b>and ( 11)<b> Instrumental variables and simultaneous equations.<b><br>
-The project combines imparting theoretical knowledge with practical analysis of data using R programming.
+## **Key Features**  
+- 📊 **Causal Analysis**: Estimates the effect of the reform using difference-in-differences.  
+- 📈 **Regression Models**: Applies multiple OLS regressions, interaction terms, and fixed effects.  
+- 🏛️ **Policy Insights**: Examines how the reform affected different socioeconomic groups.  
+
+## **Dataset & Methodology**  
+- **Dataset**: Swedish survey data on individuals born in **1948** and **1953**.  
+- **Method**: Difference-in-differences regression to isolate reform effects.  
+- **Variables**: Years of schooling, earnings, parental education, and ability levels.  
+- **Tools**: Implemented in **R**, using packages like `tidyverse`, `lmtest`, `stargazer`, and `plm`.  
+
+## **Installation & Usage**  
+### **1️⃣ Clone the repository**  
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+### **2️⃣ Install required R packages**
+install.packages(c("tidyverse", "lmtest", "stargazer", "plm", "sandwich", "car", "lfe", "knitr"))
+### **3️⃣ Run the analysis script**
+source("project_51.R")
+
+Results Summary
+
+✔ Increased education: The reform led to a significant rise in schooling years, particularly for students from lower-income backgrounds.
+✔ Higher earnings: The additional education translated into increased wages, especially for those with less-educated parents.
+✔ Gender & Socioeconomic Effects: Differences were observed in how the reform impacted males vs. females and students from different family backgrounds.
+
+##Authors
+
+👤 **Yuval Bakirov**
+👤 **Eitan Bakirov**
